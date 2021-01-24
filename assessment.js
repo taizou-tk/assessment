@@ -42,7 +42,7 @@
       anchor.innerText = 'Tweet #%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D';
       tweetDivided.appendChild(anchor);
 
-      twttr.widgets.load(); 
+      twttr.widgets.load();
   };
 
   userNameInput.onkeydown = (event) => {
@@ -68,7 +68,7 @@
       '{userName}のいいところは気配りです。{userName}の配慮が多くの人を救っています。',
       '{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなのです。',
       '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。',
-      '{userName}のいいところは優しさです。{userName}の優しい雰囲気や立ち振る舞いに多くの人が癒されています。'
+      '{userName}のいいところは優しさです。{userName}の優しい雰囲気や立ち振る舞いに多くの人が癒されています。 '
   ];
 
   /**
